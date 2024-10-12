@@ -1,13 +1,14 @@
 import Aufgabe_1.UniversityNotes;
 import Aufgabe_2.ArrayNumbers;
 import Aufgabe_3.BigNumberOperations;
+import Aufgabe_4.ElectronicShop;
 
 import java.util.Arrays;
 
 public class Main {
     public static void main(String[] args) {
 
-        // Erste Aufgabe
+        // Aufgabe 1
         System.out.println("~Erste Aufgabe~");
 
         int[] noten = {29, 37, 38, 41, 84, 67, 93, 100};
@@ -19,7 +20,7 @@ public class Main {
 
         System.out.println("\n");
 
-        // Zweite Aufgabe
+        // Aufgabe 2
         System.out.println("~Zweite Aufgabe~");
 
         int []numbers = {4, 8, 3, 10, 17};
@@ -31,7 +32,7 @@ public class Main {
 
         System.out.println("\n");
 
-        // Dritte Aufgabe
+        // Aufgabe 3
         System.out.println("~Dritte Aufgabe~");
 
         int[] num1 = {1, 3, 0, 0, 0, 0, 0, 0, 0};
@@ -56,6 +57,15 @@ public class Main {
         System.out.println("Division: " + Arrays.toString(division));
 
         System.out.println("\n");
+
+        // Aufgabe 4
+        System.out.println("~Vierte Aufgabe~");
+
+        int []keyboards = {40, 35, 70, 15, 45};
+        int []usb = {20, 15, 40, 50, 10};
+
+        System.out.println("Die billigste Tastatur: " + ElectronicShop.cheapestKeyboard(keyboards));
+        System.out.println("Der teuersten Gegenstand: " + ElectronicShop.expensiveDevice(keyboards, usb));
     }
 
 }
