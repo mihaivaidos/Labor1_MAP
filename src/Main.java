@@ -61,11 +61,15 @@ public class Main {
         // Aufgabe 4
         System.out.println("~Vierte Aufgabe~");
 
-        int []keyboards = {40, 35, 70, 15, 45};
-        int []usb = {20, 15, 40, 50, 10};
+        int []keyboards = {40, 35, 70, 15, 45, 20, 50};
+        int []usb = {20, 40, 50, 10, 43, 25};
 
         System.out.println("Die billigste Tastatur: " + ElectronicShop.cheapestKeyboard(keyboards));
         System.out.println("Der teuersten Gegenstand: " + ElectronicShop.expensiveDevice(keyboards, usb));
+
+        int budget = 64;
+        System.out.println("Das teuerste USB Laufwerk, das man kaufen kann: " + ElectronicShop.affordExpensiveUSB(usb, budget));
+        System.out.println("Der maximale Wert, mit dem man sowohl einen USB Laufwerk als auch eine Tastatur kaufen können: " + ElectronicShop.spendMaxBoth(keyboards, usb, budget));
     }
 
 }
