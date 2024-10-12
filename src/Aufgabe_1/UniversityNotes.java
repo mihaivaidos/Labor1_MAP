@@ -8,7 +8,7 @@ public class UniversityNotes {
     public static List<Integer> nichtAusreichendeNoten(int []noten) {
         List<Integer> nichtAusreichend = new ArrayList<>();
         for(int note : noten) {
-            if(note < 38) {
+            if(note < 40) {
                 nichtAusreichend.add(note);
             }
         }
@@ -23,4 +23,31 @@ public class UniversityNotes {
         return Math.round((double) summe / noten.length * 100.0) / 100.0;
     }
 
+    public static List<Integer> abgerundetenNoten(int []noten) {
+        List<Integer> abgerundeten = new ArrayList<>();
+        for(int note : noten) {
+            if(note < 38) {
+                abgerundeten.add(note);
+            } else {
+                int naechstesMultipel = (note + 4) / 5 * 5;
+                if (naechstesMultipel - note < 3) {
+                    abgerundeten.add(naechstesMultipel);
+                } else {
+                    abgerundeten.add(note);
+                }
+            }
+        }
+        return abgerundeten;
+    }
+
+    public static int maxabgerundeteNote(int []noten) {
+        List<Integer> abgerundeten = abgerundetenNoten(noten);
+        int max = abgerundeten.getFirst();
+        for(int note : abgerundeten) {
+            if(note > max) {
+                max = note;
+            }
+        }
+        return max;
+    }
 }
