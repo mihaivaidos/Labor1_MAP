@@ -45,6 +45,17 @@ public class Main {
 
         int[] diff = BigNumberOperations.subtract(num3, num4);
         System.out.println("Differenz: " + Arrays.toString(diff));
+
+        int[] num5 = {2, 3, 6, 0, 0, 0, 0, 0, 0};
+        int digit = 2;
+
+        int[] product = BigNumberOperations.multiply(num5, digit);
+        System.out.println("Multiplikation: " + Arrays.toString(product));
+
+        int[] division = BigNumberOperations.divide(num5, digit);
+        System.out.println("Division: " + Arrays.toString(division));
+
+        System.out.println("\n");
     }
 
 }

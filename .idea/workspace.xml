@@ -4,9 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="06b9341e-2c13-4cd1-9992-f61d308d10f1" name="Changes" comment="updated workspace.xml">
-      <change afterPath="$PROJECT_DIR$/src/Aufgabe_3/BigNumberOperations.java" afterDir="false" />
+    <list default="true" id="06b9341e-2c13-4cd1-9992-f61d308d10f1" name="Changes" comment="Implemented add and subtract methods for the BigNumberOperations class and updated main with examples for these 2 methods.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Aufgabe_3/BigNumberOperations.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Aufgabe_3/BigNumberOperations.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -53,7 +53,6 @@
     "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "Application.Main.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "git-widget-placeholder": "master",
     "kotlin-language-version-configured": "true",
     "node.js.detected.package.eslint": "true",
@@ -89,7 +88,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1728722515745</updated>
-      <workItem from="1728722516522" duration="9602000" />
+      <workItem from="1728722516522" duration="10314000" />
     </task>
     <task id="LOCAL-00001" summary="TEST">
       <option name="closed" value="true" />
@@ -147,7 +146,15 @@
       <option name="project" value="LOCAL" />
       <updated>1728731210395</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="Implemented add and subtract methods for the BigNumberOperations class and updated main with examples for these 2 methods.">
+      <option name="closed" value="true" />
+      <created>1728734528881</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1728734528881</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -172,7 +179,8 @@
     <MESSAGE value="Made the class and the 4 methods for the 2nd exercise." />
     <MESSAGE value="Updated main with examples for the second exercise." />
     <MESSAGE value="updated workspace.xml" />
-    <option name="LAST_COMMIT_MESSAGE" value="updated workspace.xml" />
+    <MESSAGE value="Implemented add and subtract methods for the BigNumberOperations class and updated main with examples for these 2 methods." />
+    <option name="LAST_COMMIT_MESSAGE" value="Implemented add and subtract methods for the BigNumberOperations class and updated main with examples for these 2 methods." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -181,11 +189,6 @@
           <url>file://$PROJECT_DIR$/Aufgabe_1/src/Main.java</url>
           <line>11</line>
           <option name="timeStamp" value="2" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/Main.java</url>
-          <line>42</line>
-          <option name="timeStamp" value="3" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
