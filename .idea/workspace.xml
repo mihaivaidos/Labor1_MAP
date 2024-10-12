@@ -4,8 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="06b9341e-2c13-4cd1-9992-f61d308d10f1" name="Changes" comment="Implemented multiply and divide methods for the BigNumberOperations class and updated main with examples for these 2 methods. (3rd exercise)">
-      <change afterPath="$PROJECT_DIR$/src/Aufgabe_4/ElectronicShop.java" afterDir="false" />
+    <list default="true" id="06b9341e-2c13-4cd1-9992-f61d308d10f1" name="Changes" comment="Created the first 2 methods for the 4th exercise (the cheapest keyboard, the most expensive device). Updated main with examples for the first 2 methods.">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Aufgabe_4/ElectronicShop.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Aufgabe_4/ElectronicShop.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -87,7 +88,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1728722515745</updated>
-      <workItem from="1728722516522" duration="14814000" />
+      <workItem from="1728722516522" duration="16469000" />
     </task>
     <task id="LOCAL-00001" summary="TEST">
       <option name="closed" value="true" />
@@ -161,7 +162,15 @@
       <option name="project" value="LOCAL" />
       <updated>1728735250311</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="Created the first 2 methods for the 4th exercise (the cheapest keyboard, the most expensive device). Updated main with examples for the first 2 methods.">
+      <option name="closed" value="true" />
+      <created>1728739857284</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1728739857284</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -188,7 +197,8 @@
     <MESSAGE value="updated workspace.xml" />
     <MESSAGE value="Implemented add and subtract methods for the BigNumberOperations class and updated main with examples for these 2 methods." />
     <MESSAGE value="Implemented multiply and divide methods for the BigNumberOperations class and updated main with examples for these 2 methods. (3rd exercise)" />
-    <option name="LAST_COMMIT_MESSAGE" value="Implemented multiply and divide methods for the BigNumberOperations class and updated main with examples for these 2 methods. (3rd exercise)" />
+    <MESSAGE value="Created the first 2 methods for the 4th exercise (the cheapest keyboard, the most expensive device). Updated main with examples for the first 2 methods." />
+    <option name="LAST_COMMIT_MESSAGE" value="Created the first 2 methods for the 4th exercise (the cheapest keyboard, the most expensive device). Updated main with examples for the first 2 methods." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
