@@ -29,7 +29,7 @@ public class UniversityNotes {
             if(note < 38) {
                 abgerundeten.add(note);
             } else {
-                int naechstesMultipel = (note + 4) / 5 * 5;
+                int naechstesMultipel = (int) (Math.ceil((double) note / 5) * 5);
                 if (naechstesMultipel - note < 3) {
                     abgerundeten.add(naechstesMultipel);
                 } else {
