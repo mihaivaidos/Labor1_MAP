@@ -5,7 +5,7 @@ import java.util.List;
 
 public class UniversityNotes {
 
-    public static List<Integer> nichtAusreichendeNoten(int []noten) {
+    public static List<Integer> nichtAusreichendeNoten(List<Integer> noten) {
         List<Integer> nichtAusreichend = new ArrayList<>();
         for(int note : noten) {
             if(note < 40) {
@@ -15,15 +15,15 @@ public class UniversityNotes {
         return nichtAusreichend;
     }
 
-    public static double durchschnittsWert(int []noten) {
+    public static double durchschnittsWert(List<Integer> noten) {
         int summe = 0;
         for(int note : noten) {
             summe += note;
         }
-        return Math.round((double) summe / noten.length * 100.0) / 100.0;
+        return Math.round((double) summe / noten.size() * 100.0) / 100.0;
     }
 
-    public static List<Integer> abgerundetenNoten(int []noten) {
+    public static List<Integer> abgerundetenNoten(List<Integer> noten) {
         List<Integer> abgerundeten = new ArrayList<>();
         for(int note : noten) {
             if(note < 38) {
@@ -40,7 +40,7 @@ public class UniversityNotes {
         return abgerundeten;
     }
 
-    public static int maxabgerundeteNote(int []noten) {
+    public static int maxabgerundeteNote(List<Integer> noten) {
         List<Integer> abgerundeten = abgerundetenNoten(noten);
         int max = abgerundeten.getFirst();
         for(int note : abgerundeten) {

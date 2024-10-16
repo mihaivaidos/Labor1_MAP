@@ -4,6 +4,7 @@ import Aufgabe_3.BigNumberOperations;
 import Aufgabe_4.ElectronicShop;
 
 import java.util.Arrays;
+import java.util.List;
 
 public class Main {
     public static void main(String[] args) {
@@ -11,19 +12,21 @@ public class Main {
         // Aufgabe 1
         System.out.println("~Erste Aufgabe~");
 
-        int[] noten = {29, 37, 38, 41, 84, 67, 93, 100};
+        List<Integer> noten = Arrays.asList(29, 37, 38, 41, 84, 67);
 
         System.out.println("Nicht ausreichende Noten: " + UniversityNotes.nichtAusreichendeNoten(noten));
         System.out.println("Durchschnittswert: " + UniversityNotes.durchschnittsWert(noten));
         System.out.println("Abgerundete Noten: " + UniversityNotes.abgerundetenNoten(noten));
         System.out.println("Maximale abgerundete Note: " + UniversityNotes.maxabgerundeteNote(noten));
 
+        System.out.println("Nicht ausreichende Noten nach den Aufrundungsregeln: " + UniversityNotes.nichtAusreichendeNoten(UniversityNotes.abgerundetenNoten(noten)));
+
         System.out.println("\n");
 
         // Aufgabe 2
         System.out.println("~Zweite Aufgabe~");
 
-        int []numbers = {4, 8, 3, 10, 17};
+        int []numbers = {-4, 8, 3, 10, 17};
 
         System.out.println("Maximale Zahl: " + ArrayNumbers.maxNumber(numbers));
         System.out.println("Minimale Zahl: " + ArrayNumbers.minNumber(numbers));
@@ -48,7 +51,7 @@ public class Main {
         System.out.println("Differenz: " + Arrays.toString(diff));
 
         int[] num5 = {2, 3, 6, 0, 0, 0, 0, 0, 0};
-        int digit = 2;
+        int digit = 1;
 
         int[] product = BigNumberOperations.multiply(num5, digit);
         System.out.println("Multiplikation: " + Arrays.toString(product));
@@ -61,13 +64,13 @@ public class Main {
         // Aufgabe 4
         System.out.println("~Vierte Aufgabe~");
 
-        int []keyboards = {40, 35, 70, 15, 45, 20, 50};
-        int []usb = {20, 40, 50, 10, 43, 25};
+        int []keyboards = {60};
+        int []usb = {8, 12};
 
         System.out.println("Die billigste Tastatur: " + ElectronicShop.cheapestKeyboard(keyboards));
         System.out.println("Der teuersten Gegenstand: " + ElectronicShop.expensiveDevice(keyboards, usb));
 
-        int budget = 64;
+        int budget = 60;
         System.out.println("Das teuerste USB Laufwerk, das man kaufen kann: " + ElectronicShop.affordExpensiveUSB(usb, budget));
         System.out.println("Der maximale Wert, mit dem man sowohl einen USB Laufwerk als auch eine Tastatur kaufen können: " + ElectronicShop.spendMaxBoth(keyboards, usb, budget));
     }
